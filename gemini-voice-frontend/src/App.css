@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.controls button {
+  font-size: calc(8px + 2vmin);
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.controls button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: calc(8px + 1vmin);
+}
+
+.response-text-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #3a3f47;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.response-text-container h3 {
+  margin-top: 0;
+  font-size: calc(10px + 1vmin);
+}
+
+.response-text-container pre {
+  white-space: pre-wrap; /* Allows text to wrap */
+  word-wrap: break-word; /* Breaks long words */
+  font-size: calc(8px + 1vmin);
+  max-height: 200px;
+  overflow-y: auto;
+}
